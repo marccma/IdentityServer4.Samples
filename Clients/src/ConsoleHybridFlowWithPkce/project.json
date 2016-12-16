@@ -5,20 +5,17 @@
   },
 
   "dependencies": {
-    "Serilog.Extensions.Logging": "1.2.0",
-    "Serilog.Sinks.Literate": "2.0.0",
-    "IdentityModel.OidcClient": "2.0.0-alpha2",
-    "Microsoft.AspNetCore.Server.Kestrel": "1.0.1",
-    "Constants": "1.0.0-*"
+    "Constants": "1.0.0-*",
+    "IdentityModel.OidcClient": "2.0.0-bruichladdich",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.1.0",
+    "Microsoft.NETCore.App": "1.1.0",
+    "Serilog.Extensions.Logging": "1.4.0-dev-10136",
+    "Serilog.Sinks.Literate": "2.1.0-dev-00034"
   },
 
   "frameworks": {
     "netcoreapp1.0": {
       "dependencies": {
-        "Microsoft.NETCore.App": {
-          "type": "platform",
-          "version": "1.0.1"
-        }
       },
       "imports": "dnxcore50"
     }
